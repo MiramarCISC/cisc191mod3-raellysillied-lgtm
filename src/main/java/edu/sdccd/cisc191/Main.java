@@ -18,5 +18,7 @@ public class Main {
         shapes.sort(Comparator.comparingDouble(Shape::area));
         System.out.println("Sorted by area:");
         shapes.forEach(System.out::println);
+
+        // hello
     }
 }
